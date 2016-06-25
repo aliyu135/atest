@@ -18,7 +18,7 @@ private Handler handler=new Handler();
                 startActivity(intent);
                 finish();
             }
-        },2000);
+        },10);
 
 
 
