@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<titleBar.vedio_title xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vedio_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D43E37">
+
+    <RelativeLayout
+        android:id="@+id/vedio_title_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/vedio_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#D43E37"
+            android:drawableRight="@drawable/ui"
+            android:text="北京"
+            android:textColor="#fff" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                style="@style/top_rg"
+                android:text="热映" />
+
+            <RadioButton
+                style="@style/top_rg"
+                android:text="热映" />
+
+            <RadioButton
+
+                style="@style/top_rg"
+                android:text="热映" />
+
+
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+    <TextView
+
+        android:layout_margin="10dp"
+        android:layout_below="@+id/vedio_title_rl"
+        android:id="@+id/vedio_top_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/vedio_title_tv_border"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_search"
+        android:hint="找电影、影人、影院"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+
+</titleBar.vedio_title>

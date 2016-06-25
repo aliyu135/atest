@@ -3,11 +3,12 @@ package atguigu.com.cateye;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.RadioGroup;
 
 import java.util.ArrayList;
@@ -19,7 +20,7 @@ import BottomPager.findPager;
 import BottomPager.minePager;
 import BottomPager.vedioPager;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends FragmentActivity {
 //    这是底部切换不同的页面类的集合
 List<BasePager> pagerList;
     RadioGroup bottom_rg;
@@ -27,6 +28,7 @@ List<BasePager> pagerList;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
         bottom_rg= (RadioGroup) findViewById(R.id.rg);
         pagerList=new ArrayList<>();
