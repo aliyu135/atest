@@ -14,11 +14,11 @@ import android.widget.RadioGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import BottomPager.BasePager;
-import BottomPager.cinemaPager;
-import BottomPager.findPager;
-import BottomPager.minePager;
-import BottomPager.vedioPager;
+import bottompager.BasePager;
+import bottompager.CinemaPager;
+import bottompager.FindPager;
+import bottompager.MinePager;
+import bottompager.VedioPager;
 
 public class MainActivity extends FragmentActivity {
 //    这是底部切换不同的页面类的集合
@@ -38,10 +38,10 @@ List<BasePager> pagerList;
  * 这个方法用来初始化页面的数据
  * */
     private void initData(){
-        pagerList.add(new vedioPager(this));
-        pagerList.add(new cinemaPager(this));
-        pagerList.add(new findPager(this));
-        pagerList.add(new minePager(this));
+        pagerList.add(new VedioPager(this));
+        pagerList.add(new CinemaPager(this));
+        pagerList.add(new FindPager(this));
+        pagerList.add(new MinePager(this));
         bottom_rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {

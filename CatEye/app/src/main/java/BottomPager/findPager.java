@@ -1,4 +1,4 @@
-package BottomPager;
+package bottompager;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -10,9 +10,9 @@ import android.widget.TextView;
  * Created by Administrator on 2016/6/25.
  * 发现页面类
  */
-public class findPager extends BasePager {
+public class FindPager extends BasePager {
     private TextView textView;
-    public findPager(Activity mActivity) {
+    public FindPager(Activity mActivity) {
         super(mActivity);
     }
 

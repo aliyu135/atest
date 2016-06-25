@@ -1,4 +1,4 @@
-package BottomPager;
+package bottompager;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -10,9 +10,9 @@ import android.widget.TextView;
  * Created by Administrator on 2016/6/25.
  * 这是影院页面类
  */
-public class cinemaPager extends BasePager {
+public class CinemaPager extends BasePager {
     private TextView textView;
-    public cinemaPager(Activity mActivity) {
+    public CinemaPager(Activity mActivity) {
         super(mActivity);
     }
 

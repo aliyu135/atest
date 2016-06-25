@@ -1,4 +1,4 @@
-package bottompager;
+package vediotoppager;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -8,17 +8,16 @@ import android.widget.TextView;
 
 /**
  * Created by Administrator on 2016/6/25.
- * 这是“我的“页面类
  */
-public class MinePager extends BasePager {
+public class HotPlay extends VedioTopBasePager {
     private TextView textView;
-    public MinePager(Activity mActivity) {
-        super(mActivity);
+    public HotPlay(Activity tactivity) {
+        super(tactivity);
     }
 
     @Override
-    public View initView() {
-        textView=new TextView(mActivity);
+    public View initTopView() {
+        textView=new TextView(tactivity);
         textView.setTextSize(50);
         textView.setTextColor(Color.RED);
         textView.setGravity(Gravity.CENTER);
@@ -27,9 +26,8 @@ public class MinePager extends BasePager {
     }
 
     @Override
-    public void initData() {
-        super.initData();
-        textView.setText("这是我的页面内容");
+    public void initTopData() {
+        super.initTopData();
+        textView.setText("这是热映页面内容");
     }
-
 }
