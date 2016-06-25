@@ -26,7 +26,10 @@
         <item name="android:layout_weight">1</item>
         <item name="android:gravity">center</item>
         <item name="android:textSize">15sp</item>
-        <item name="android:layout_margin">5dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
        <item name="android:textColor">@drawable/vedio_top_rgtext_selector</item>
 
     </style>
