@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="atguigu.com.cateye.MainActivity">
+    <RadioGroup
+        android:id="@+id/rg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <RadioButton
+            android:id="@+id/vedio"
+            style="@style/rg"
+            android:text="电影"
+            android:drawableTop="@drawable/vedio_selector"
+             />
+        <RadioButton
+            android:id="@+id/cinema"
+            style="@style/rg"
+            android:text="影院"
+            android:drawableTop="@drawable/cinema_selector"
+            />
+        <RadioButton
+            android:id="@+id/find"
+            style="@style/rg"
+            android:text="发现"
+            android:drawableTop="@drawable/find_selector"
+            />
+        <RadioButton
+            android:id="@+id/mine"
+            style="@style/rg"
+            android:text="我的"
+            android:drawableTop="@drawable/mine_selector"
+            />
+
+
+
+    </RadioGroup>
+
+</RelativeLayout>
