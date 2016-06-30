@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/vedio_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D43E37"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/vedio_title_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/vedio_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="#D43E37"
+                android:drawableRight="@drawable/ui"
+                android:text="北京"
+                android:textColor="#fff" />
+
+            <RadioGroup
+                android:id="@+id/vedio_title_rg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/vedio_title_hot"
+                    style="@style/top_rg"
+                    android:text="热映" />
+
+                <RadioButton
+                    android:id="@+id/vedio_title_wait"
+
+                    style="@style/top_rg"
+                    android:text="待映" />
+
+                <RadioButton
+                    android:id="@+id/vedio_title_abroad"
+                    style="@style/top_rg"
+                    android:text="海外" />
+
+
+            </RadioGroup>
+
+
+        </RelativeLayout>
+
+        <TextView
+
+            android:id="@+id/vedio_top_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vedio_title_rl"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/vedio_title_tv_border"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_search"
+            android:hint="找电影、影人、影院"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+</LinearLayout>
