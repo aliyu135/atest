@@ -1,1 +1,3 @@
-include ':app'
+include ':app', ':xutils_library', ':联网测试'
+include ':netRequestDemo'
+include ':onTheWay'

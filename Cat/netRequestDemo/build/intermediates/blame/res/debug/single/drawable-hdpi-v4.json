@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "I:\\arepository\\testgit\\Cat\\netRequestDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checked.png",
+        "source": "I:\\arepository\\testgit\\Cat\\netRequestDemo\\src\\main\\res\\drawable-hdpi\\checked.png"
+    },
+    {
+        "merged": "I:\\arepository\\testgit\\Cat\\netRequestDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "I:\\arepository\\testgit\\Cat\\netRequestDemo\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

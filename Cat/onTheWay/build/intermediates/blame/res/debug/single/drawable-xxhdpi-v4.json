@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "I:\\arepository\\testgit\\Cat\\onTheWay\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_discover.png",
+        "source": "I:\\arepository\\testgit\\Cat\\onTheWay\\src\\main\\res\\drawable-xxhdpi\\icon_discover.png"
+    },
+    {
+        "merged": "I:\\arepository\\testgit\\Cat\\onTheWay\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_home.png",
+        "source": "I:\\arepository\\testgit\\Cat\\onTheWay\\src\\main\\res\\drawable-xxhdpi\\icon_home.png"
+    },
+    {
+        "merged": "I:\\arepository\\testgit\\Cat\\onTheWay\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_menu.png",
+        "source": "I:\\arepository\\testgit\\Cat\\onTheWay\\src\\main\\res\\drawable-xxhdpi\\icon_menu.png"
+    },
+    {
+        "merged": "I:\\arepository\\testgit\\Cat\\onTheWay\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_friend.png",
+        "source": "I:\\arepository\\testgit\\Cat\\onTheWay\\src\\main\\res\\drawable-xxhdpi\\icon_friend.png"
+    },
+    {
+        "merged": "I:\\arepository\\testgit\\Cat\\onTheWay\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_search.png",
+        "source": "I:\\arepository\\testgit\\Cat\\onTheWay\\src\\main\\res\\drawable-xxhdpi\\icon_search.png"
+    },
+    {
+        "merged": "I:\\arepository\\testgit\\Cat\\onTheWay\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "I:\\arepository\\testgit\\Cat\\onTheWay\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "I:\\arepository\\testgit\\Cat\\onTheWay\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\error.png",
+        "source": "I:\\arepository\\testgit\\Cat\\onTheWay\\src\\main\\res\\drawable-xxhdpi\\error.png"
+    }
+]

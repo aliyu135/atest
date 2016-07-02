@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
+import android.view.Window;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
@@ -18,17 +19,15 @@ public class MainActivity extends AppCompatActivity {
 
     public final static int num = 4;
 
-    Fragment vedioFragment;
-    Fragment cinemaFragment;
-    Fragment findFragment;
-    Fragment mineFragment;
     private FragmentManager fragmentManager;
     private FragmentTransaction transaction;
     private RadioGroup radioGroup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
         fragmentManager = getSupportFragmentManager();
         radioGroup = (RadioGroup)findViewById(R.id.radioGroup1);
@@ -77,4 +76,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         return true;
     }
+
+
+
 }

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "I:\\arepository\\testgit\\Cat\\onTheWay\\build\\intermediates\\res\\merged\\debug\\layout\\include_home_top.xml",
+        "source": "I:\\arepository\\testgit\\Cat\\onTheWay\\src\\main\\res\\layout\\include_home_top.xml"
+    },
+    {
+        "merged": "I:\\arepository\\testgit\\Cat\\onTheWay\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "I:\\arepository\\testgit\\Cat\\onTheWay\\src\\main\\res\\layout\\activity_home.xml"
+    }
+]
